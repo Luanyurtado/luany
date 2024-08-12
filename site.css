@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d1dded;
+    margin: 0;
+    position: relative;
+}
+
+/* Estilo do menu */
+nav {
+    background-color: #031930;
+    color: #d1dded;
+    padding: 25px 0px;  /* tamanho da caixa de navegação */
+    text-align: center; /* centraliza o texto */
+    position: sticky;  /* faz o navegador não sair */
+    top: 0;  /* posiciona o menu no topo da pág. */
+    
+}
+
+nav ul {
+    list-style: none; /* remove marcador de lista */
+    margin: 0;
+    padding: 0; /*remove preenchimento padrão da lista */
+    display: flex; 
+    justify-content: center; /* centraliza horizontalmente os itens */
+}
+
+nav ul li {
+    margin: 0 15px; /* espaço entre os itens */
+}
+
+nav ul li a {
+    color: #d1dded;
+    text-decoration: none; /* remove sublinhado */
+    font-size: 23px; /* tamanho da fonte */
+    padding: 15px 10px; /* espaço interno dos links */
+    transition: background-color 0.3s; 
+    border-radius: 35px; /* borda arredondada */
+}
+
+nav ul li a:hover {
+    background-color: #758ba5;
+    border-radius: 35px; /* borda arredondada */
+}
+
+/* estilo da caixa de titulo */
+.container-principal {
+    max-width: 100%; /* largura */
+    margin: 45px auto; 
+    padding: 40px; /* espaço interno */
+    background-color:#031930;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* sombra */
+    color:white;
+}
+
+/* estilo da caixa de fundo */
+.background-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 5650px;
+    background-color: #4a83c0; /* Cor ou imagem de fundo */
+    z-index: -1; /* Faz com que fique atrás dos outros elementos */
+    margin-left: 155px;
+    margin-top: 190px;
+}
+
+/* estilo da caixa de conteúdo */
+.container {
+    max-width: 1000px; /* largura */
+    margin: 50px auto; 
+    padding: 40px; /* espaço interno */
+    background-color:white; 
+    border-radius: 8px; /* borda */ 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* sombra */
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    text-align: justify;
+    font-size: 22px;
+    color: rgb(100, 100, 100);
+}
+
+.highlight { 
+    color: #031930; /* cor do texto em destaque */
+    font-weight: bold; /* negrito */
+}
+
+.print1{
+    padding-left: 23%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 800px;
+}
+
+.print2{
+    padding-left: 23%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 800px;
+}
+
+.print3{
+    padding-left: 29%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 650px;
+}
+
+.print4{
+    padding-left: 29%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 650px;
+}
+
+footer {
+    background-color: #031930;
+    color: #d1dded;
+    padding: 25px 0px;  /* tamanho da caixa de navegação */
+    text-align: center; /* centraliza o texto */
+    position: sticky;  /* faz o navegador não sair */
+    top: 0;  /* posiciona o menu no topo da pág. */
+    
+}
+
+footer ul {
+    list-style: none; /* remove marcador de lista */
+    margin: 0;
+    padding: 0; /*remove preenchimento padrão da lista */
+    display: flex; 
+    justify-content: center; /* centraliza horizontalmente os itens */
+}
+
+footer ul li {
+    margin: 0 15px; /* espaço entre os itens */
+}
+
+footer ul li a {
+    color: #d1dded;
+    text-decoration: none; /* remove sublinhado */
+    font-size: 23px; /* tamanho da fonte */
+    padding: 15px 10px; /* espaço interno dos links */
+    transition: background-color 0.3s; 
+    border-radius: 35px; /* borda arredondada */
+}
+
+footer ul li a:hover {
+    background-color: #758ba5;
+    border-radius: 35px; /* borda arredondada */
+}
