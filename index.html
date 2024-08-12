@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Luany Urtado Santos </title>
+    <link rel="stylesheet" href="site.css">   
+
+</head>
+<body>
+    
+    <div class="background-container"></div> 
+
+    <nav> 
+        <ul>
+            <li><a href="#home"> Home </a></li>
+            <li><a href="#conceito"> Conceito </a></li>
+            <li><a href="#atributos-metodos"> Atributos e Métodos </a></li>
+            <li><a href="#encapsulamento"> Encapsulamento </a></li>
+            <li><a href="#heranca"> Herança </a></li>
+            <li><a href="#polimorfismo"> Polimorfismo </a></li>
+            <li><a href="#abstracao"> Abstração </a></li>
+            <li><a href="#footer"> Footer </a></li>
+        </ul>
+    </nav>
+
+
+    <div class="container-principal" id="home">
+        <h1>Pesquisa aprofundada sobre Programação Orientada a Objetos:</h1>
+    </div>
+
+    <div class="container" id="conceito">
+        <h3>Qual o conceito de Programação Orientada a Objetos? (POO)</h3>
+        <p>É um estilo de programação que pode conter informações em formas de <span class="highlight">atributos</span> e códigos na forma de <span class="highlight">métodos</span>. Dentre várias linguagens da POO, as que mais se destacam são as baseadas em <span class="highlight">classes</span> e <span class="highlight">objetos</span>, que são instâncias de classes.</p>
+        <p><span class="highlight">Classe:</span> é a estrutura que define um conjunto de atributos (dados) e métodos (ações) que os objetos criados a partir dessa classe terão.</p>
+        <p><span class="highlight">Objeto:</span> já o objeto é uma instância concreta de uma classe.</p>
+        <p><span class="highlight">Exemplo:</span> a classe é o projeto de algo, como uma receita de bolo. Nela possui os ingredientes, modo de preparo e tempo de preparo (atributos). E os passos para isso, como o tempo definido, modo de preparo definido e a adição dos ingredientes (métodos). Já o objeto poderia ser bolo de chocolate, que é uma instância da classe receita de bolo.</p>
+    </div>
+
+    <div class="container" id="atributos-metodos">
+        <h3>Atributos e Métodos:</h3>
+        <p><span class="highlight">Métodos:</span> são ações ou comportamentos que um objeto pode realizar.</p>
+        <p><span class="highlight">Atributos:</span> são características ou propriedades que um objeto pode ter.</p>
+    </div>
+
+    <div class="container" id="encapsulamento">
+        <h3>Encapsulamento:</h3>
+        <p>O encapsulamento serve para ocultar os detalhes internos de uma classe.</p>
+        <p><span class="highlight">Importância:</span> ele permite que você controle quem pode acessar e modificar os atributos e métodos de uma classe, expondo somente o necessário para a interação com o objeto.</p>
+        <p><span class="highlight">Benefícios:</span> a partir dele é possível garantir a segurança, modularidade e abstração do código, facilitando o desenvolvimento e manutenção de sistemas.</p>
+        <p><span class="highlight">Exemplo:</span> em uma classe <span class="highlight">conta bancária</span>, você pode ter métodos públicos como o <span class="highlight">depositar</span> e <span class="highlight">sacar</span>, entretanto o atributo <span class="highlight">saldo da conta</span> está privado. Assim, os detalhes internos estão escondidos e apenas os métodos necessários são expostos para interação.</p>
+    </div>
+
+    <img src="print3.png" class="print3">
+
+    <div class="container" id="heranca">
+        <h3>Herança:</h3>
+        <p>A herança permite que você crie classes que vão herdar informações (atributos e métodos) de outra classe.</p>
+        <p><span class="highlight">Importância:</span> é uma das maneiras de se obter a reutilização e extensibilidade do código.</p>
+        <p><span class="highlight">Benefícios:</span> desconsidera a necessidade de reescrever código semelhante, promovendo a eficiência e a consistência.</p>
+        <p><span class="highlight">Exemplo:</span> assim como em uma família onde os filhos herdam características dos pais. Na POO, se <span class="highlight">pessoa</span> é a classe base com atributos como função, as classes derivadas <span class="highlight">pai</span> e <span class="highlight">filho</span> herdam atributos como <span class="highlight">trabalhador</span> e <span class="highlight">estudante</span>.</p>
+    </div>
+
+    <img src="print1.png" class="print1">
+
+    <div class="container" id="polimorfismo">
+        <h3>Polimorfismo:</h3>
+        <p>O polimorfismo é a propriedade de duas ou mais classes derivadas de uma mesma superclasse responderem à mesma mensagem, cada uma de forma diferente.</p>
+        <p><span class="highlight">Importância:</span> permite que um objeto possa ser tratado de várias formas diferentes.</p>
+        <p><span class="highlight">Benefícios:</span> promove a reutilização de código e contribui para a criação de sistemas mais limpos e compreensíveis.</p>
+        <p><span class="highlight">Exemplo:</span> Imagine uma classe chamada <span class="highlight">ferramentas</span>, subclasses como um <span class="highlight">martelo</span> e uma <span class="highlight">chave</span>. Ambos têm um método <span class="highlight">usar</span>, mas cada ferramenta implementa usar de uma maneira diferente. Quando você pede para usar a ferramenta, o comportamento específico depende do tipo de ferramenta que você escolheu.</p>
+    </div>
+
+    <img src="print2.png" class="print2">
+
+    <div class="container" id="abstracao">
+        <h3>Abstração:</h3>
+        <p>Na abstração, ocultamos detalhes irrelevantes ou complexos e focamos somente nos aspectos essenciais.</p>
+        <p><span class="highlight">Importância:</span> permite que os desenvolvedores se concentrem nas características essenciais de um objeto, simplificando assim a complexidade do mundo real em modelos mais gerenciáveis no código.</p>
+        <p><span class="highlight">Benefícios:</span> facilita a compreensão do código, pois permite que os desenvolvedores vejam o problema de forma mais simples e clara. Além disso, melhora a reusabilidade do código, pois permite que os desenvolvedores criem código modular e reutilizável.</p>
+        <p><span class="highlight">Exemplo:</span> A classe <span class="highlight">controleRemoto</span> define métodos como <span class="highlight">ligar</span> e <span class="highlight">desligar</span>. O usuário interage com o controle sem se preocupar com os detalhes internos de como os comandos são processados.</p>
+    </div>
+
+    <img src="print4.png" class="print4">
+
+    <footer id="footer">
+        <ul>
+            <li><a href="mailto:luany.santos.dev.2024@gmail.com"> Contato </a></li>
+            <li><a href="bibliografia.html"> Bibliografia </a></li>
+            <li><a href="faq.html"> Perguntas </a></li>
+        </ul>
+    </footer>
+</body>
+</html>
